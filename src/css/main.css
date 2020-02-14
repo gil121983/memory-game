@@ -1,0 +1,38 @@
+body {
+  background: rgb(5, 92, 0);
+}
+
+.grid {
+  border: solid 10px black;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #ccc;
+  width: 60px;
+  height: 100px;
+  margin: 10px;
+}
+
+.card.hidden img{
+  visibility: hidden;
+ 
+}
+
+.empty-slot {
+  background:  rgb(5, 92, 0);
+  width: 60px;
+  height: 100px;
+  margin: 10px;
+
+}
+.message-line{
+
+  border: solid 10px black;
+  display: flex;
+  justify-content: center;
+  height: 70px;
+
+}
